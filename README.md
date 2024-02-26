@@ -1,10 +1,10 @@
-# Project Title
+# European Arts
 
-Simple overview of use/purpose.
+Database of european paintings
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Aplication that shows diferent paintings from europe categorised by country. I will use 'The Metropolitan Museum of Art Collection API'
 
 ## Getting Started
 
@@ -40,10 +40,8 @@ command to run if program contains helper info
 
 ## Author
 
-Contributors names and contact info
-
-ex. Bobby Diggs  
-ex. [@rza](https://twitter.com/rza)
+Mirjana Mugosa
+Email: mirjana@hellogbg.se
 
 ## Weekly Project Progress
 
@@ -56,11 +54,10 @@ Describe here in detail the weekly implementations
 ### Week 1 Progress
 
 - **What did I implement this week?**
-  - [ ] Feature A
-  - [ ] Feature B
-  - [ ] Bug fixes
-  - [ ] Refactoring
-  - [ ] The implementations above are examples, delete them and add yours
+  - [ ] Set up the project
+  - [ ] Learning and practising React components, import them to app 
+  - [ ] Learning Git hub
+  - [ ] Research about my project, find API
 - **What obstacles or roadblocks did I face this week?**
 
   - [ ] Technical challenges
@@ -72,7 +69,7 @@ Describe here in detail the weekly implementations
 - **Is there anything in particular that I would benefit from reviewing with the code instructor to enhance or solve my obstacles or roadblocks of the week?**
   - [ ] Yes
   - [ ] No
-  - [ ] Not sure, but would like guidance
+  - [x] Not sure, but would like guidance
   - [ ] The implementations above are examples, delete them and add yours
 
 ### Week 2 Progress
