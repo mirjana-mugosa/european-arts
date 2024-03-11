@@ -99,23 +99,23 @@ Describe here in detail the weekly implementations
 ### Week 3 Progress
 
 - **What did I implement this week?**
-  - [ ] Feature A
-  - [ ] Feature B
-  - [ ] Bug fixes
-  - [ ] Refactoring
-  - [ ] The implementations above are examples, delete them and add yours
+  - [ ] I have instaled Tailwind on my project
+  - [ ] Starting to do with screen that is going to show art title, desription and image, dummy text
+  - [ ] Style screen with tailwind, just couple classes
+  - [ ] 
+  - [ ] 
 - **What obstacles or roadblocks did I face this week?**
 
   - [ ] Technical challenges
-  - [ ] Time constraints
+  - [x] Time constraints
   - [ ] Communication issues
   - [ ] Other (please specify)
   - [ ] The implementations above are examples, delete them and add yours
 
 - **Is there anything in particular that I would benefit from reviewing with the code instructor to enhance or solve my obstacles or roadblocks of the week?**
   - [ ] Yes
-  - [ ] No
-  - [ ] Not sure, but would like guidance
+  - [x] Not right now
+  - [ ] Not sure
   - [ ] The implementations above are examples, delete them and add yours
 
 ### Week 4 Progress
