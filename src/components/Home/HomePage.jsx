@@ -44,8 +44,6 @@ const HomePage = () => {
         <ArtCard
           key={index}
           artTitle={artWork.title}
-          // Ensure you pass the correct props according to your ArtCard component
-          // For example, you might pass artImage, artistName, etc.
           link={link}
           artId={artWork.id}
           artWorkLink={artWork.api_link}

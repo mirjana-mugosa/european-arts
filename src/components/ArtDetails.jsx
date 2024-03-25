@@ -37,7 +37,6 @@ const ArtDetails = () => {
   return (
     <div>
       <h1>{artTitle.title}</h1>
-      {/* Render other details as needed */}
     </div>
   );
 };

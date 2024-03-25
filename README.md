@@ -144,23 +144,23 @@ Describe here in detail the weekly implementations
 
 - **What did I implement this week?**
 
-  - [ ] Feature A
-  - [ ] Feature B
-  - [ ] Bug fixes
+  - Home page with cards that
+  - React router, menu (menu is not going to be on my app att the end)
+  - API (maybe that one it is not going to be last version)
   - [ ] Refactoring
   - [ ] The implementations above are examples, delete them and add yours
 
 - **What obstacles or roadblocks did I face this week?**
 
-  - [ ] Technical challenges
-  - [ ] Time constraints
+  - to find right API that is relevant for theme that I use from the begining, because the fist one that I chose could not work well.
+  - [x] Time constraints
   - [ ] Communication issues
   - [ ] Other (please specify)
   - [ ] The implementations above are examples, delete them and add yours
 
 - **Is there anything in particular that I would benefit from reviewing with the code instructor to enhance or solve my obstacles or roadblocks of the week?**
-  - [ ] Yes
-  - [ ] No
+  - I am still working to find and implement API and to combine something that could work for my project. 
+  - I will try more until tommorow on my own
   - [ ] Not sure, but would like guidance
   - [ ] The implementations above are examples, delete them and add yours
 
