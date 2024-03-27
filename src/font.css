@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'BitterLight';
+    src: local('Bitter-Light'),
+         url('.fonts/fonts/Bitter-light.ttf') format('truetype')
+}

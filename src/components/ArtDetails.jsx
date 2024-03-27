@@ -36,16 +36,25 @@ const ArtDetails = () => {
   }
 
   return (
-    <div>
-      <h1>{artDetails.department}</h1>
-      <h1>Title: {artDetails.title}</h1>
-      <h1>Artist: {artDetails.artistDisplayName} ({artDetails.artistDisplayBio})</h1>
-      <h1>Date: {artDetails.objectDate}</h1>
-      <h1>Dimensions: {artDetails.dimensions}</h1>
-      <h1>Credit Line: {artDetails.creditLine}</h1>
-      <h1>{artDetails.geographyType}</h1>
-      <img src={artDetails.primaryImage} />
+    <div className="mb-10 mt-10 mx-auto max-w-screen-xl flex flex-wrap">
+      <div className=" lg:w-1/2 p-8">
+        <a href="/" className="text-sm font-bold text-red-700 cursor-pointer hover:text-red-500">{artDetails.department}</a>
+        <h1 className="text-xl font-bold mb-2 mt-4"></h1>
+        <p className="mb-4 text-[35px] ">{artDetails.title}</p>
+        <h1 className="text-l font-bold mb-2">Artist:</h1>
+        <p className="mb-4">{artDetails.artistDisplayName} ({artDetails.artistDisplayBio})</p>
+        <h1 className="text-l font-bold mb-2">Date:</h1>
+        <p className="mb-4">{artDetails.objectDate}</p>
+        <h1 className="text-l font-bold mb-2">Dimensions:</h1>
+        <p className="mb-4">{artDetails.dimensions}</p>
+        <h1 className="text-l font-bold mb-2">Credit Line:</h1>
+        <p className="mb-4">{artDetails.creditLine}</p>
+        <h1 className="text-xl font-bold mb-2">{artDetails.geographyType}</h1>
+      </div>
+      <div className="w-full lg:w-1/2 p-4">
+        <img src={artDetails.primaryImage} className="w-full h-auto" alt="Artwork" />
     </div>
+</div>
   );
 };
 

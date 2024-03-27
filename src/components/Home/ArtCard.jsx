@@ -10,10 +10,10 @@ const ArtCard = ({ artImage, artTitle, artId, url, artDate, artArtist }) => {
   };
 
   return (
-  <div className="shadow-lg cursor-pointer" onClick={handleClick}>
+  <div className="shadow-lg cursor-pointer " onClick={handleClick}>
     <img className="w-full h-64 object-cover" src={artImage} alt={artTitle} />
       <div className="px-6 py-4">
-        <div className="font-bold text-lg mb-2">{artTitle}</div>
+        <div className="font-BitterLight font-bold text-lg mb-2">{artTitle}</div>
         <div className="text-gray-700 text-base">{artArtist}</div>
         {/* <div className="text-gray-700 text-base">{artDate}</div> */}
       </div>
