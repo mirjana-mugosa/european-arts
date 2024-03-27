@@ -38,7 +38,7 @@ const ArtDetails = () => {
   return (
     <div className="mb-10 mt-10 mx-auto max-w-screen-xl flex flex-wrap">
       <div className=" lg:w-1/2 p-8">
-        <a href="/" className="text-sm font-bold text-red-700 cursor-pointer hover:text-red-500">{artDetails.department}</a>
+        <a href="/paintings" className="text-sm font-bold text-red-700 cursor-pointer hover:text-red-500">{artDetails.department}</a>
         <h1 className="text-xl font-bold mb-2 mt-4"></h1>
         <p className="mb-4 text-[35px] ">{artDetails.title}</p>
         <h1 className="text-l font-bold mb-2">Artist:</h1>
