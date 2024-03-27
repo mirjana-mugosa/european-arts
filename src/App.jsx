@@ -9,14 +9,15 @@ import { ListOfArt } from "./components/ListOfArt";
 import { NotFound } from "./components/NotFound";
 import HomePage from "./components/Home/HomePage"
 import ArtDetails from "./components/ArtDetails";
+import technigo from "./assets/technigo-logo.svg";
 
 export const App = () => {
   return (
     <>
     <BrowserRouter>
-      <div className="flex justify-between items-center bg-gray-900 py-4 px-6">
+      <div className="flex justify-between items-center bg-amber-600 py-6 px-20">
         <nav>
-          <ul className="flex items-center space-x-6">
+          <ul className="flex items-center text-lg space-x-12">
             <li className="text-white hover:text-gray-300"> 
               <Link to="/">Home Page</Link>
             </li>

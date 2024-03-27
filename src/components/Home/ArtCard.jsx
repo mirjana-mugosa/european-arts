@@ -1,19 +1,23 @@
 import React from 'react';
 
 
-const ArtCard = ({ artImage, artTitle, artId, onClick }) => {
+const ArtCard = ({ artImage, artTitle, artId, url, artDate, artArtist }) => {
 
   const handleClick = () => {
-    window.location.href = `/art-details/${artId}`;
+    const id = url.slice(23 , 29)
+    // console.log((id));
+    window.location.href = `/art-details/${id}`;
   };
 
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer" onClick={handleClick}>
-      <img className="w-full h-48 object-cover" src={artImage} alt={artTitle} />
+  <div className="shadow-lg cursor-pointer" onClick={handleClick}>
+    <img className="w-full h-64 object-cover" src={artImage} alt={artTitle} />
       <div className="px-6 py-4">
-        <div className="font-semibold text-xl mb-2">{artTitle}</div>
+        <div className="font-bold text-lg mb-2">{artTitle}</div>
+        <div className="text-gray-700 text-base">{artArtist}</div>
+        {/* <div className="text-gray-700 text-base">{artDate}</div> */}
       </div>
-    </div>
+  </div>
   );
 };
 

@@ -5,12 +5,11 @@ const HomePage = () => {
   const [artWorks, setArtWorks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const link = "/art-details";
 
   useEffect(() => {
     const fetchArtWorks = async () => {
       try {
-        const response = await fetch('https://www.metmuseum.org/api/collection/collectionlisting?showOnly=withImage&department=11&material=Oak');
+        const response = await fetch('https://www.metmuseum.org/api/collection/collectionlisting?showOnly=withImage&department=11');
         if (!response.ok) {
           throw new Error('Failed to fetch Art Works');
         }
@@ -26,10 +25,6 @@ const HomePage = () => {
     fetchArtWorks();
   }, []);
 
-  const handleCardClick = (artId) => {
-    window.location.href = `/art-details/${artId}`;
-  };
-
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -39,18 +34,19 @@ const HomePage = () => {
   }
 
   return (
-    <>
+    <div className="mb-10 mt-10 mx-auto max-w-screen-xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
       {artWorks.map((artWork, index) => (
-        <ArtCard
-          key={index}
-          artTitle={artWork.title}
-          link={link}
-          artId={artWork.id}
-          artWorkLink={artWork.api_link}
-          onClick={() => handleCardClick(artWork.id)}
-        />
-      ))}
-    </>
+        <div key={index}>
+          <ArtCard
+            artTitle={artWork.title}
+            artImage={artWork.image}
+            url={artWork.url}
+            artArtist={artWork.artist}
+            // artDate={artWork.date}
+          />
+      </div>
+  ))}
+  </div>
   );
 };
 
