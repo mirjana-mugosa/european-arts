@@ -16,7 +16,9 @@ export const App = () => {
     <>
     <BrowserRouter>
       <div className="flex flex-col sm:flex-row justify-between items-center bg-red-700 py-4 px-4 sm:px-20">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Museum_icon_%28white%29.svg/1024px-Museum_icon_%28white%29.svg.png?20190324153322" alt="Logo" className="h-12 w-auto" />
+        <a href="/">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Museum_icon_%28white%29.svg/1024px-Museum_icon_%28white%29.svg.png?20190324153322" alt="Logo" className="h-12 w-auto" />
+        </a>        
         <nav>
           <ul className="flex items-center text-lg space-x-12">
             <li className="text-white hover:text-gray-300"> 
